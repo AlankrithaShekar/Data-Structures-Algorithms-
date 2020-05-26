@@ -8,6 +8,7 @@ namespace DataStructures
 {
     class MergeSort : Program
     {
+        int[] a ={9,8,5,4,6,2,1,3};
         public static void MergeSortImplementation(int[] a)
         {
             int low = 0, high = a.Length - 1;
