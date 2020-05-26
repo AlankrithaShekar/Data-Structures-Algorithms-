@@ -33,7 +33,6 @@ namespace DataStructures
             int[] left = new int[n1];
             int[] right = new int[n2];
 
-            Console.WriteLine("{0},{1}", low, mid);
             for (i = 0; i < n1; i++)
                 left[i] = a[low+i];
             for (j = 0; j < n2; j++)
